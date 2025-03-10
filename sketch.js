@@ -70,6 +70,6 @@ function updateIframe() {
   } else if (selected === '淡江大學教科系') {
     iframe.attribute('src', 'https://www.et.tku.edu.tw');
   } else if (selected === '測驗題') {
-    iframe.attribute('src', 'https://hackmd.io/@YYa9uOlzTSKY6M5C6lDNmA/BkS9jYzske');
+    iframe.attribute('src', 'https://aaron040729.github.io/20250303/');
   }
 }
