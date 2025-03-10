@@ -23,7 +23,7 @@ function setup() {
   select.position(button.x + button.width + 10, 10); // 將下拉式選單放置在按鈕的右側
   select.option('淡江大學');
   select.option('淡江大學教科系');
-  select.option('hackmd筆記');
+  select.option('測驗題');
   select.changed(updateIframe);
   
   iframe = createElement('iframe');
@@ -69,7 +69,7 @@ function updateIframe() {
     iframe.attribute('src', 'https://www.tku.edu.tw');
   } else if (selected === '淡江大學教科系') {
     iframe.attribute('src', 'https://www.et.tku.edu.tw');
-  } else if (selected === 'hackmd筆記') {
+  } else if (selected === '測驗題') {
     iframe.attribute('src', 'https://hackmd.io/@YYa9uOlzTSKY6M5C6lDNmA/BkS9jYzske');
   }
 }
